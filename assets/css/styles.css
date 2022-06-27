@@ -23,3 +23,8 @@
   --small-font-size: .813rem;
   --smaller-font-size: .75rem;
 
+  /*========== Font weight ==========*/
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
