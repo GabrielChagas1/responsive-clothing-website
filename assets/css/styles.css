@@ -133,3 +133,43 @@ img {
   color: var(--title-color);
   font-weight: var(--font-medium);
 }
+
+@media screen and (max-width: 1023px){
+  .nav__menu{
+    position: fixed;
+    bottom: 1.5rem;
+    background-color: var(--body-color);
+    box-shadow: 0 4px 12px hsla(220, 18%, 40%, .15);
+    width: 90%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 1.25rem 2.8rem;
+    border-radius: .5rem;
+  }
+  .nav__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav__link{
+    color: var(--text-color-light);
+    font-weight: var(--font-medium);
+    display: grid;
+    justify-items: center;
+    row-gap: .25rem;
+  }
+  .nav__link i{
+    font-size: 1.25rem;
+  }
+  .nav__link span{
+    font-size: .688rem;
+  }
+}
+
+/* Change background header */
+
+
+/* Active link */
+
+
