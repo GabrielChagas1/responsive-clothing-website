@@ -121,3 +121,15 @@ img {
   z-index: var(--z-fixed);
   transition: .4s;
 }
+
+.nav{
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo{
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+}
