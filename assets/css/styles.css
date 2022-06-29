@@ -86,6 +86,19 @@ img {
   height: auto;
 }
 
+/*=============== THEME ===============*/
+/*========== Variables Dark theme ==========*/
+
+
+/*========== Button Dark/Light ==========*/
+
+
+/*========== 
+    Color changes in some parts of 
+    the website, in dark theme 
+==========*/
+
+
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 1024px;
@@ -112,6 +125,7 @@ img {
   overflow: hidden; /* For animation ScrollReveal */
 }
 
+/*=============== HEADER & NAV ===============*/
 .header{
   position: fixed;
   top: 0;
@@ -235,4 +249,46 @@ img {
 .button__link:hover i{
   transform: translateX(.25rem);
 }
+
+/*=============== NEW ===============*/
+
+
+/*=============== COLLECTION ===============*/
+
+
+/*=============== PRODUCTS ===============*/
+
+
+/* Swiper class */
+
+
+/*=============== BRANDS ===============*/
+
+
+/*=============== FOOTER ===============*/
+
+
+/*=============== SCROLL BAR ===============*/
+
+
+/*=============== SCROLL UP ===============*/
+
+
+/* Show Scroll Up*/
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+
+
+/* For medium devices */
+
+
+/* For large devices */
+
+
+/* For 2K resolutions (2048 x 1152, 2048 x 1536) */
+
+
+/* For 4K resolutions (3840 x 2160, 4096 x 2160) */
 
