@@ -20,6 +20,12 @@ var swiperProducts = new Swiper(".products__container", {
       prevEl: ".swiper-button-prev",
     },
 
+    breakpoints:{
+        1024: {
+            spaceBetween: 72,
+        }
+    }
+  });
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
