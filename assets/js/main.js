@@ -8,6 +8,12 @@ window.addEventListener('scroll', scrollHeader)
 
 
 /*=============== SWIPER PRODUCTS ===============*/
+var swiperProducts = new Swiper(".products__container", { 
+    spaceBetween: 32,
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    loop: true,
 
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
