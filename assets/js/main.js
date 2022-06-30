@@ -15,6 +15,11 @@ var swiperProducts = new Swiper(".products__container", {
     slidesPerView: 'auto',
     loop: true,
 
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
