@@ -108,7 +108,29 @@ body.dark-theme{
     Color changes in some parts of 
     the website, in dark theme 
 ==========*/
+.dark-theme .scroll-header{
+  box-shadow: 0 2px 8px hsla(220, 18%, 8%, .3);
+}
 
+.dark-theme .nav__menu{
+  background-color: var(--container-color);
+}
+
+.dark-theme .nav__menu,
+.dark-theme .scrollup{
+  box-shadow: 0 4px 8px hsla(220, 18%, 8%, .3);
+}
+
+.dark-theme::-webkit-scrollbar{
+  background-color: hsl(220, 18%, 15%);
+}
+
+.dark-theme::-webkit-scrollbar-thumb{
+  background-color: hsl(220, 18%, 25%);
+}
+
+.dark-theme::-webkit-scrollbar-thumb:hover{
+  background-color: hsl(220, 18%, 35%);
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
