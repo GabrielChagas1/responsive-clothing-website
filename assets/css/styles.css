@@ -223,7 +223,9 @@ body.dark-theme{
 }
 
 /* Active link */
-
+.active-link{
+  color: var(--title-color);
+}
 
 /*=============== HOME ===============*/
 .home{
