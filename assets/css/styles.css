@@ -426,7 +426,19 @@ body.dark-theme{
 }
 
 /*=============== BRANDS ===============*/
+.brand__container{
+  grid-template-columns: repeat(2, max-content);
+  justify-content: center;
+  column-gap: 1.25rem;
+}
 
+.brand__img{
+  width: 120px;
+}
+
+.brand__img:nth-child(even){
+  margin-top: 2rem;
+}
 
 /*=============== FOOTER ===============*/
 
