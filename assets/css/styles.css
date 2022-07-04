@@ -379,7 +379,27 @@ body.dark-theme{
 }
 
 /*=============== PRODUCTS ===============*/
+.products__container{
+  padding-bottom: 5rem;
+}
 
+.products__card{
+  width: 270px;
+}
+
+.products__img{
+  margin-bottom: 1rem;
+}
+
+.products__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: .75rem;
+}
+
+.products__price{
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+}
 
 /* Swiper class */
 
