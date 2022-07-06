@@ -565,7 +565,73 @@ body.dark-theme{
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 340px){
+  .container{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 
+  .footer__content{
+    grid-template-columns: max-content;
+    row-gap: 2rem;
+  }
+
+  .nav__menu{
+    padding: 1rem 1.5rem;
+  }
+
+  .home__container{
+    padding: 2rem 0 1rem;
+    row-gap: 6rem;
+  }
+  .home__description{
+    font-size: var(--small-font-size);
+  }
+  .home__images{
+    width: 248px;
+  }
+  .home__images img:nth-child(1){
+    width: 180px;
+    top: -7rem;
+  }
+  .home__images img:nth-child(2){
+    width: 150px;
+  }
+
+  .new__img{
+    width: 230px;
+  }
+  .new__link{
+    padding-right: 0;
+  }
+
+  .collection__explore:nth-child(1),
+  .collection__explore:nth-child(2){
+    position: initial;
+    grid-template-columns: 230px;
+    row-gap: 2rem;
+    margin: 0;
+  }
+  .collection__container{
+    height: initial;
+    row-gap: 3rem;
+  }
+  .collection__data-men{
+    margin-top: 0;
+  }
+  .collection__data-women{
+    margin-bottom: 0;
+  }
+
+  .products__card{
+    width: 230px;
+  }
+
+  .brand__container{
+    grid-template-columns: repeat(2, 100px);
+    row-gap: .5rem;
+  }
+}
 
 /* For medium devices */
 
