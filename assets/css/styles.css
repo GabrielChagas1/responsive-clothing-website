@@ -807,4 +807,8 @@ body.dark-theme{
 }
 
 /* For 4K resolutions (3840 x 2160, 4096 x 2160) */
-
+@media screen and (min-width: 3840px){
+  body{
+    zoom: 2.3;
+  }
+}
